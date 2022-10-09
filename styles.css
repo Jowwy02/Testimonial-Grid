@@ -26,13 +26,11 @@ body {
 
 .testimonial-card {
   max-width: 1440px;
-  /* width: 100%; */
   margin: 100px auto;
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
-  /* height: 100%; */
 }
 
 .card-ts {
@@ -97,10 +95,6 @@ body {
   background-color: var(--Very-dark-blackish-blue);
   color: var(--White);
 }
-
-/* .attribution {
-    text-align: center;
-  } */
 
 .card-ts:nth-of-type(1) {
   grid-column: 1 / 3;
