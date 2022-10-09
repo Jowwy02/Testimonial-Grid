@@ -11,8 +11,53 @@
   --Light-violet: #a775f1;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background: var(--Light-grayish-blue);
+  font-family: var(--barlow-font);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.testimonial-card {
+  max-width: 1440px;
+  margin: 100px auto;
+  padding: 20px;
+  /* height: 100%; */
+}
+
+.card-ts {
+  background-color: var(--White);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.headers {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.headers h3{
+ font-size: 16px; 
+}
+
+.headers p {
+    font-size: 10px; 
+    opacity: 50%;
+ }
+
+ .card-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: 2px solid var(--Light-violet);
+    border-radius: 50%;
+ }
